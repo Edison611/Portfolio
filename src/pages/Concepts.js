@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/pages.css";
 
-const Home = () => {
+const Concepts = () => {
     return (
         <div>
             <h1> Under Construction </h1>
@@ -9,4 +9,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Concepts

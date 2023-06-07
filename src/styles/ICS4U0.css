@@ -1,0 +1,30 @@
+.frame {
+    display: flex;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}   
+
+.pctext {
+    position: absolute;
+    top: 20px;
+    left: 25%;
+}
+
+.protext {
+    position: absolute;
+    top: 20px;
+    left: 40%;
+}
+
+button {
+    align-items: center;
+    display: flex;
+    margin: 2%;
+}
