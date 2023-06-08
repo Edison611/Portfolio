@@ -4,7 +4,7 @@ import "../styles/pages.css";
 const Concepts = () => {
     return (
         <div>
-            <h1> Under Construction </h1>
+            <div className="title"> Programming Concepts: </div>
         </div>
     )
 }
