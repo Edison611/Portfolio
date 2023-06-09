@@ -5,7 +5,6 @@
     padding-top: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-bottom: 3rem;
 }   
 
 .grid-container {
@@ -14,6 +13,10 @@
     gap: 10px;
   }
 
+.two {
+    display: grid;
+    grid-template-columns: auto auto;
+}
 /* CSS */
 .button-57 {
   position: relative;
@@ -31,6 +34,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   margin: auto;
+  margin-top: 2rem;
 }
 
 .button-57 span:first-child {
@@ -92,6 +96,6 @@
 }
 
 .documentation {
-    width: 350px;
-    height: 250px;
+    width: 340px;
+    height: 280px;
 }
