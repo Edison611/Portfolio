@@ -19,8 +19,6 @@ import four from "../images/concepts/Inheritance.png"
 import five from "../images/concepts/Reading.png"
 import six from "../images/concepts/Writing.png"
 import seven from "../images/concepts/UML.png"
-import eight from "../images/concepts/Sort.png"
-import nine from "../images/concepts/search.png"
 
 const Concepts = () => {
 
