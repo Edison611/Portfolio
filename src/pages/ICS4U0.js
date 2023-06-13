@@ -13,7 +13,7 @@ const ICS4U0 = () => {
                 Concepts and Projects for the ICS4U0 course can be found below:
             </div>
             <div className="frame">
-            <button className="button-orng" onClick={ ()=> navigate("/Concepts")} role="button"><span className="text">
+            <button className="button-orng" onClick={ ()=> navigate("/Concepts")}><span className="text">
                 <div className="pctext">Programming Concepts</div>
                 <img src={im1} alt="pc_im" className="pc_im"></img>
             </span></button>

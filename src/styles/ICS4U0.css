@@ -1,7 +1,7 @@
 .frame {
     display: flex;
 }
-
+/* 
 .title {
     font-size: 50px;
     text-align: center;
@@ -9,7 +9,7 @@
     padding-top: 2rem;
     padding-left: 3rem;
     padding-right: 3rem;
-}   
+}    */
 
 .pctext {
     margin-top: 20px;

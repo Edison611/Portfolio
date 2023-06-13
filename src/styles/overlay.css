@@ -19,8 +19,8 @@
     margin: auto;
     z-index: 10000;
     padding: 30px;
-    width: 80%;
-    height: 90%;
+    width: 85%;
+    height: 95%;
     overflow: auto;
   }
   
@@ -37,27 +37,28 @@
   
   .overlay__close {
     border: none;
-    font-size: 36px;
+    font-size: 3vw;
     cursor: pointer;
   }
 
   .header {
-    font-size: 30px;
+    font-size: 2.4vw;
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;        
     text-align: center;
   }
 
   .subtitle {
-    font-size: 28px;
+    font-size: 2vw;
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;    
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
   }
 
   .explanation {
     margin-top: 10px;
-    font-size: 21px;
+    font-size: 1.6vw;
     padding-left: 1rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
@@ -66,10 +67,14 @@
   
   .code_ex {
     margin-top: 10px;
-    width: 40%;
-    height: 85%;
+    width: 40vw;
+    height: 50vh;
   }
   
   .body {
     display:flex;
+  }
+
+  ul {
+    font-size: 1.6vw;
   }

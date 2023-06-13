@@ -1,5 +1,5 @@
 .title {
-    font-size: 35px;
+    font-size: 3.5vw;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 2rem;
@@ -24,7 +24,7 @@
   border: 1px solid #18181a;
   color: #18181a;
   display: flex;
-  font-size: 30px;
+  font-size: 2vw;
   line-height: 15px;
   padding: 18px 18px 17px;
   text-decoration: none;
@@ -45,7 +45,7 @@
 
 .button-57 span:last-child {
   color: white;
-  font-size: 24px;
+  font-size: 1.6vw;
   display: block;
   position: absolute;
   bottom: 0;
@@ -96,6 +96,6 @@
 }
 
 .documentation {
-    width: 340px;
-    height: 280px;
+    width: 25vw;
+    height: 45vh;
 }
