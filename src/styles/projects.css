@@ -6,7 +6,81 @@ h1 {
 
 
 .olg {
+    margin:2%;
     text-align: center;
-    font-size: 45px ;
+    font-size: 3.5vw ;
     font-family: 'Garamond';
+}
+
+.tasks {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 10px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 10vh;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 2vw;
+  margin: 2%;
+  padding: 2%;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.headers {
+    font-family: "JetBrains Mono",monospace;
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: 2%;
+}
+
+.git_logo {
+    height: 4.8vw;
+    padding: 2%;
+    align-items: center;
+}
+
+.task {
+    font-size: 2vw;
+    text-align: center;
+    padding: 7%;
+    font-weight: bold;
+    font-family: "JetBrains Mono",monospace;
 }
