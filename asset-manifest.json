@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f8fb0ac8.css",
-    "main.js": "/Portfolio/static/js/main.2a63682e.js",
+    "main.css": "/Portfolio/static/css/main.7b74c767.css",
+    "main.js": "/Portfolio/static/js/main.197d867c.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Recursion.png": "/Portfolio/static/media/Recursion.a5941703a92ea0759a89.png",
     "static/media/Writing.png": "/Portfolio/static/media/Writing.1b29368c217f0264f38b.png",
@@ -12,8 +12,12 @@
     "static/media/Reading.png": "/Portfolio/static/media/Reading.e757274fe8adf2f9c23d.png",
     "static/media/Classes.png": "/Portfolio/static/media/Classes.24c48492bf2edcde8002.png",
     "static/media/class.png": "/Portfolio/static/media/class.89a48a5bbac9bf6ccfa6.png",
+    "static/media/linsearch.png": "/Portfolio/static/media/linsearch.427ea2c352227700aa80.png",
     "static/media/inheritance.png": "/Portfolio/static/media/inheritance.3df87b11de67a623227d.png",
+    "static/media/timsort.png": "/Portfolio/static/media/timsort.0d1166a7041892e1280b.png",
+    "static/media/insort.png": "/Portfolio/static/media/insort.c5dd02a64dcf0bd006d7.png",
     "static/media/programming_concepts.png": "/Portfolio/static/media/programming_concepts.00c5548928072978e17a.png",
+    "static/media/binsearch.png": "/Portfolio/static/media/binsearch.247e9624c4fe2570aa5e.png",
     "static/media/searching.png": "/Portfolio/static/media/searching.59d4c155061f8dfd19f5.png",
     "static/media/freading.png": "/Portfolio/static/media/freading.05ea613abb0f98474f0e.png",
     "static/media/sorting.png": "/Portfolio/static/media/sorting.c89f9664cb59b1544014.png",
@@ -22,12 +26,12 @@
     "static/media/background2.jpeg": "/Portfolio/static/media/background2.108450dddd550412f31a.jpeg",
     "static/media/github.svg": "/Portfolio/static/media/github.b6a94fc1e8df50ac1b1d42461a74495b.svg",
     "index.html": "/Portfolio/index.html",
-    "main.f8fb0ac8.css.map": "/Portfolio/static/css/main.f8fb0ac8.css.map",
-    "main.2a63682e.js.map": "/Portfolio/static/js/main.2a63682e.js.map",
+    "main.7b74c767.css.map": "/Portfolio/static/css/main.7b74c767.css.map",
+    "main.197d867c.js.map": "/Portfolio/static/js/main.197d867c.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8fb0ac8.css",
-    "static/js/main.2a63682e.js"
+    "static/css/main.7b74c767.css",
+    "static/js/main.197d867c.js"
   ]
 }
