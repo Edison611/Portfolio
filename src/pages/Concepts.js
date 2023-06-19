@@ -162,6 +162,8 @@ const Concepts = () => {
                         <img src={six} alt = "" className="code_ex"></img>
                         <div className="explanation">File writing is important whenever you want to enable a user to retain information for future use. It is also important when you do not want to directly print to the console so that you can save information. For example, when you want to save progress in any video game, you will need to write to a file so that the information is saved. Another example of when to write to a file is when you want to log data so that you can analyze what went wrong with the code or server. In the image on the left, there is an example of a log file where we are logging info when the programming is running at the specific time frame.</div>
                     </div>
+                        <div className="subtitle">JSON Files: </div>
+                        <div className="explanation">JSON files are a special type of file that you can write to or read from. They are used because they are stored like lists/hashmaps which makes it very convenient for programmers to access. They are commonly used when storing game data, configuration files, and API data because of how easy and simple they are to create compared to XML files or SQL files. </div>
                 </Overlay>
             </div>
 
@@ -196,10 +198,14 @@ const Concepts = () => {
                     <div className="explanation">There are many different kinds of sorting algorithms that have different use cases and also different run speeds.</div>
                     <div className="subtitle">Insertion Sort:</div>
                     <div className="explanation">Insertion sort is an O(n<sup>2</sup>) worst-case scenario sorting algorithm based off of bubble sort. While it is somewhat of a slower algorithm, it is an algorithm that is easy to understand for beginners in how it works. It starts from the beginning of the list and compares two adjacent items to see which one is less and moves that item to the left. This process continues until all items are all in the proper order which means that the list is sorted.</div>
+                    <div className="subtitle">Merge Sort:</div>
+                    <div className="explanation">Merge sort is an O(n log n) algorithm for average and worst-case scenario making it reliable among different sizes of datasets. It begins by splitting the list into smaller and smaller lists until there is only one element in each smaller list. Then it begins sorting the values by merging the list back into its original form but sorted instead. Merge sort is a very optimized algorithm that does a very good job at sorting lists, no matter the size or complexity.</div>
                     <div className="subtitle">Timsort:</div>
                     <div className="explanation">Timsort is the built-in Python sorting algorithm that utilizes both insertion sort and merge sort and has a time complexity of O(n(log n)) worst-case scenario. This makes it one of the fastest sorting algorithms. </div>
+                    <div className="subtitle">When to use each algorithm?</div>
+                    <div className="explanation">Timsort would be the most ideal algorithm to use as it combines both merge and insertion sort to create a super fast algorithm to sort arrays. Insertion is a good algorithm to learn for beginners as it is relatively simple to comprehend and code. Finally, merge sort is better for intermediates who understand a lot about coding already and the concepts behind making partitions/splitting the list into smaller lists.</div>
                     <br></br>
-                    <div className="explanation">To find more information about these algorithms, visit the Algorithms assignment.</div>
+                    <div className="explanation">To find more information about these algorithms, visit the Algorithms assignment where I give in depth explanations on the pros and cons of each algorithm.</div>
                 </Overlay>
             </div>
             <div className="col">
@@ -213,11 +219,13 @@ const Concepts = () => {
                 <div className="header">Searching Algorithms:</div>
                     <div className="explanation">When we want to find an item in a list, we have to use a searching algorithm in order to find it. Searching algorithms vary in time complexity and there are many to choose from.</div>
                     <div className="subtitle">Linear Search:</div>
-                    <div className="explanation">This is the most straight forward type of search and uses a loop from the start to the end and checks whether we found the item or not. Once the item is found, the algorithm is complete with a time complexity of O(n). </div>
+                    <div className="explanation">This is the most straight forward type of search and uses a loop from the start to the end and checks whether we found the item or not. Once the item is found or not found, the algorithm is complete and will return the position of the desired item or -1 if it is not in the array with a time complexity of O(n). </div>
                     <div className="subtitle">Binary Search:</div>
                     <div className="explanation">This type of searching algorithm is a little bit harder to understand. You must use this algorithm on a sorted list. It begins by start at the middle index of a list and removes half of the list depending on if your desired value is lower or higher than the middle number. The algorithm continues to split the list in half until the desired value has been found giving it a time complexity of O(log n).</div>
+                    <div className="subtitle">When to use each algorithm?</div>
+                    <div className="explanation">While binary search has a faster runtime. The key difference is that it requires the array to be sorted which also requires time. No matter if a list is sorted or not, linear search will always have the same runtime. This would actually make linear search faster than sorting an array and then using binary search to find an element. To summarize, linear search should be used when the array is unsorted, while binary search should be used when the array is sorted.</div>
                     <br></br>
-                    <div className="explanation">To find more information about these algorithms, visit the Algorithms assignment.</div>
+                    <div className="explanation">To find more information about these algorithms, visit the Algorithms assignment where I give in depth explanations on the pros and cons of each algorithm.</div>
                 </Overlay>
             </div>
         </div>
